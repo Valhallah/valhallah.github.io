@@ -185,15 +185,6 @@ hr {
 	border-radius: 4px;
 }
 
-
-/*.navbar-nav li a .contact:hover {
-    -webkit-transition: background-color .13s ease-out;
-    -moz-transition: background-color .13s ease-out;
-    -o-transition: background-color .13s ease-out;
-    transition: background-color .13s ease-out;
-    background-color:#1dcba7;
-}*/
-
 @media (max-width:767px) {
 	.navbar-default {
 		min-height: 50px;
@@ -322,7 +313,7 @@ hr {
 }
 
 
-/* PORTFOLIO
+/* HEADSHOT
    ================================================== */
 
 .row-headshot {
@@ -383,21 +374,21 @@ hr {
 }
 
 
-/* SKILLS
+/* BIO
    ================================================== */
 
-.bg-skills {
+.bg-bio {
 	background-color: #F2F2F2;
 	padding-top: 130px;
 	padding-bottom: 130px;
 }
 
-.bg-skills h2 {
+.bg-bio h2 {
 	margin-top: 0;
 	color: #777;
 }
 
-.bg-skills p {
+.bg-bio p {
 	padding-right: 40px;
 	color: #777;
 	font-size: 18px;
@@ -405,7 +396,7 @@ hr {
 	margin-top: 14px;
 }
 
-.bg-skills h4 {
+.bg-bio h4 {
 	color: #777;
 }
 
