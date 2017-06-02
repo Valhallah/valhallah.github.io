@@ -108,6 +108,42 @@ hr {
 }
 
 
+/* PAGINATION-PAGER
+   ================================================== */
+
+.col-pagination {
+	margin-top: 40px;
+}
+
+.pagination .active span {
+	background-color: #1BBC9B;
+	border-color: #EEEEEE;
+}
+
+.pagination .active span:hover {
+	background-color: #1BBC9B;
+	border-color: #EEEEEE;
+}
+
+.pagination li a, .pager li a {
+	-webkit-transition: background-color .22s ease-out;
+	-moz-transition: background-color .22s ease-out;
+	-o-transition: background-color .22s ease-out;
+	transition: background-color .22s ease-out;
+}
+
+.pagination li a {
+	color: #1BBC9B;
+	border-color: #EEEEEE;
+}
+
+.pagination li a:hover {
+	color: #FFF;
+	background-color: #1BBC9B;
+	border-color: #EEEEEE;
+}
+
+
 /* NAVBAR
    ================================================== */
 
@@ -135,7 +171,7 @@ hr {
 	padding-top: 0;
 }
 
-.navbar-brand  {
+.navbar-brand {
 	width: 200px;
 	margin-top: 30px;
 	font-size: 28px;
@@ -214,7 +250,14 @@ hr {
 	.navbar-nav li a .contact {
 		padding: 3px 10px;
 	}
-
+	.navbar-brand img {
+		width: 86px;
+		margin-top: 4px;
+	}
+	.navbar.tiny .navbar-brand img {
+		width: 86px;
+		margin-top: 4px;
+	}
 	.navbar-default .navbar-toggle {
 		margin-top: 20px;
 		background-color: #E67E22;
@@ -325,11 +368,11 @@ hr {
 /* PORTFOLIO
    ================================================== */
 
-.row-headshot {
+.row-portfolio {
 	margin-bottom: 138px;
 }
 
-.wrapper-headshot {
+.wrapper-portfolio {
 	border-radius: px;
 	margin: 0 auto;
 	position: relative;
@@ -343,7 +386,7 @@ hr {
 	box-shadow: 0px 6px 0 0 rgba(0, 0, 0, 0.08);
 }
 
-.wrapper-headshot .img-responsive {
+.wrapper-portfolio .img-responsive {
 	border-radius: ;
 	/*transition*/
 	-webkit-transition: opacity .1s linear;
@@ -352,13 +395,13 @@ hr {
 	transition: opacity .1s linear;
 }
 
-.wrapper-headshot:hover .img-responsive {
+.wrapper-portfolio:hover .img-responsive {
 	/* IE 8 OPACITY*/
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
 	opacity: 0.8;
 }
 
-.wrapper-headshot:hover .category {
+.wrapper-portfolio:hover .category {
 	visibility: visible;
 	top: 50%;
 }
