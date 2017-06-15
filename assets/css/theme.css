@@ -137,9 +137,10 @@ hr {
 
 .navbar-brand  {
 	width: 200px;
-	margin-top: 30px;
-	font-size: 28px;
+	margin-top: 34px;
+	font-size: 30px;
 	/*transition*/
+	font-family: 'Comfortaa', sans-serif;
 	-webkit-transition: all .22s ease-out;
 	-moz-transition: all .22s ease-out;
 	-o-transition: all .22s ease-out;
@@ -250,9 +251,10 @@ hr {
 	position: relative;
 	top: 0px;
 	font-size: 46px;
+	font-family: 'Comfortaa', sans-serif;
 	max-width: 700px;
 	margin: 0 auto;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	line-height: 66px;
 	-webkit-animation-duration: 0.8s;
 	animation-duration: 0.8s;
@@ -349,12 +351,12 @@ hr {
 	opacity: 0.8;
 }
 
-.wrapper-headshot:hover .category {
+.wrapper-headshot:hover .greeting {
 	visibility: visible;
 	top: 50%;
 }
 
-.category {
+.greeting {
 	visibility: hidden;
 	position: absolute;
 	top: 140%;
@@ -366,6 +368,7 @@ hr {
 	color: #FFF;
 	line-height: 0;
 	font-size: 20px;
+	font-family: 'Comfortaa', sans-serif;
 	/*transition*/
 	-webkit-transition: all .2s ease-out;
 	-moz-transition: all .2s ease-out;
