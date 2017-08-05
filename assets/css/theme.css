@@ -584,10 +584,20 @@ hr {
 	position: relative;
 	color: #ffffff;
 	top: 2px;
+	font-size: 20px;
 }
 
 .bg-contact .mail {
 	color: #ffffff;
+	font-size: 20px;
+}
+
+.bg-contact .mail:hover {
+	color: #DC7633;
+}
+
+.bg-contact .glyphicon:hover {
+	color: #DC7633;
 }
 
 
