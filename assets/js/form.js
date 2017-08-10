@@ -35,12 +35,13 @@ submitBtn.addEventListener("click", function(e) {
   if (!isEmail.test(formEmail.value)) {
       emailReject();
   } else {
-    emailConfirm();
     $.ajax({
         url: "https://formspree.io/Valynhall@gmail.com",
         method: "POST",
         data: $(this).serialize(),
         dataType: "json"
     });
+    e.preventDefault();
+    emailConfirm();
   }
 });
