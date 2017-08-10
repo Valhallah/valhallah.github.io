@@ -397,11 +397,21 @@ hr {
 	font-size: 18px;
 	line-height: 32px;
 	margin-top: 14px;
+	font-family: sans-serif;
+}
+
+.bg-bio a {
+	color: #DC7633;
+}
+
+.bg-bio a:hover {
+	color: #85C1E9;
 }
 
 .bg-bio h4 {
 	color: #777;
 	margin-left: 50px;
+	font-family: sans-serif;
 }
 
 .bg-bio .fa {
