@@ -36,6 +36,11 @@ submitBtn.addEventListener("click", function(e) {
       emailReject();
   } else {
     emailConfirm();
+    $.ajax({
+        url: "https://formspree.io/Valynhall@gmail.com",
+        method: "POST",
+        data: $(this).serialize(),
+        dataType: "json"
+    });
   }
-
 });
