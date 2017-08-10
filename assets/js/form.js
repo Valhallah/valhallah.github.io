@@ -19,10 +19,10 @@ textArea.addEventListener("blur", function(e) {
   return;
 });
 
-function emailConfirm() {
-  document.getElementById('goodEmail').style.display = 'block';
-  document.getElementById('badEmail').style.display = 'none';
-}
+// function emailConfirm() {
+//   document.getElementById('goodEmail').style.display = 'block';
+//   document.getElementById('badEmail').style.display = 'none';
+// }
 
 function emailReject() {
   document.getElementById('badEmail').style.display = 'block';
@@ -42,6 +42,6 @@ submitBtn.addEventListener("click", function(e) {
     //     dataType: "json"
     // });
     // e.preventDefault();
-    emailConfirm();
+    // emailConfirm();
   }
 });
