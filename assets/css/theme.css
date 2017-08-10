@@ -155,8 +155,7 @@ hr {
 .navbar.navbar-default .navbar-nav>li>a {
 	padding-top: 36px;
 	padding-bottom: 36px;
-	font-size: 15px;
-	text-transform: uppercase;
+	font-size: 20px;
 	color: white;
 	/*transition*/
 	-webkit-transition: padding .22s ease-out;
@@ -226,17 +225,19 @@ hr {
    ================================================== */
 
 .bg-intro {
-	color: #FFF;
-	background-image: url(../images/coder.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	/*background-size*/
-	-moz-background-size: cover;
-	background-size: cover;
+  color: #FFF;
+  z-index: 1;
+  background-image: url(../images/coder.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  /*background-size*/
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 .bg-intro .row {
-	padding-top: 242px;
+	padding-top: 320px;
 	padding-bottom: 300px;
 }
 
@@ -244,7 +245,7 @@ hr {
 	background-color: rgb(34, 49, 63);
 	/* IE 8 OPACITY */
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-	background-color: rgba(34, 49, 63, .5);
+	background-color: rgba(34, 49, 63, .3);
 }
 
 .bg-intro h1 {
@@ -253,7 +254,7 @@ hr {
 	font-size: 46px;
 	font-family: 'Comfortaa', sans-serif;
 	max-width: 700px;
-	margin: 0 auto;
+	margin: 0px auto;
 
 	line-height: 66px;
 	-webkit-animation-duration: 0.8s;
@@ -279,7 +280,7 @@ hr {
 		top: -30px;
 	}
 	80% {
-		top: 10px;
+		top: 30px;
 	}
 	100% {
 		top: 0px;
@@ -296,7 +297,7 @@ hr {
 		top: -30px;
 	}
 	80% {
-		top: 10px;
+		top: 30px;
 	}
 	100% {
 		top: 0px;
@@ -411,7 +412,7 @@ hr {
 .bg-bio h4 {
 	color: #777;
 	margin-left: 50px;
-	
+
 }
 
 .bg-bio .fa {
@@ -589,7 +590,7 @@ hr {
 	padding-bottom: 60px;
 }
 
-.bg-contact .glyphicon-envelope {
+/*.bg-contact .glyphicon-envelope {
 	margin-right: 10px;
 	position: relative;
 	color: #ffffff;
@@ -608,7 +609,7 @@ hr {
 
 .bg-contact .glyphicon:hover {
 	color: #DC7633;
-}
+}*/
 
 
 .bg-contact h3 {
@@ -619,6 +620,7 @@ hr {
 
 .btn {
 	background-color: #DC7633;
+	border-color: inherit;
 	width: 80px;
 }
 
