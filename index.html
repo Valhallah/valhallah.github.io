@@ -132,12 +132,15 @@
 							<input name="name" type="text" class="form-control" id="formName" placeholder="Name">
 							<label class="pull-left">*Email:</label>
 							<input name="_replyto" type="email" class="form-control" id="formEmail" placeholder="Email">
+							<input type="text" name="_gotcha" style="display:none" />
 							<p class="text-danger" style="display: none;" id="badEmail">Woops! Please enter a valid e-mail address.</p>
-
 							<label class=pull-left>*Message</label>
-							<!-- <textarea name="message" type="text" class="form-control contact-form" id="formText">What would you like to say?</textarea> -->
-							<input name="go" type="submit" value="Send" id="submitBtn" class="btn btn-default" />
+							<textarea name="message" type="text" class="form-control contact-form" id="formText"></textarea>
+							<input type="submit" value="Send" id="submitBtn" class="btn btn-default" />
 							<p class="text-warning" style="display: none;" id="goodEmail">Message sent!</p>
+
+							<input type="hidden" name="_subject" value="Website contact" />
+							
 						</form>
 						<!-- <a class="mail" href="mailto:ValynHall@gmail.com"><span class="glyphicon glyphicon-envelope"></span>E-MAIL</a> -->
 					</div>

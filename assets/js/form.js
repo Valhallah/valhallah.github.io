@@ -2,22 +2,22 @@ var formEmail = document.getElementById("formEmail"),
     textArea = document.getElementById("formText"),
     submitBtn = document.getElementById("submitBtn");
 
-textArea.addEventListener("focus", function(e) {
-  var targetValue = e.target.value;
-  if (targetValue === "What would you like to say?") {
-    e.target.value = "";
-  }
-  return;
-});
+// textArea.addEventListener("focus", function(e) {
+//   var targetValue = e.target.value;
+//   if (targetValue === "What would you like to say?") {
+//     e.target.value = "";
+//   }
+//   return;
+// });
 
-textArea.addEventListener("blur", function(e) {
-  console.log(e)
-  var targetValue = e.target.value;
-  if (targetValue === "") {
-    e.target.value = "What would you like to say?";
-  }
-  return;
-});
+// textArea.addEventListener("blur", function(e) {
+//   console.log(e)
+//   var targetValue = e.target.value;
+//   if (targetValue === "") {
+//     e.target.value = "What would you like to say?";
+//   }
+//   return;
+// });
 
 function emailConfirm() {
   document.getElementById('goodEmail').style.display = 'block';
