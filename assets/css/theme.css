@@ -451,6 +451,17 @@ hr {
 	margin-left: 40px;
 }
 
+@media (max-width:767px) {
+	.bg-bio {
+		text-align: center;
+	}
+
+	.bg-bio p {
+		text-align: center;
+		padding-right: 0px;
+	}
+}
+
 /* PORTFOLIO
    ================================================== */
 .bg-portfolio{
