@@ -2,8 +2,6 @@
    ================================================== */
 
 body {
-	padding:0!important;
-    margin:0 !important;
 	font-family: 'Coming Soon', cursive;
 	font-family: 'Questrial', sans-serif;
 }
@@ -338,6 +336,7 @@ hr {
 @media (max-width:767px) {
 	.bg-intro {
 		background-position: bottom;
+
 	}
 
 	.bg-intro h1 {
@@ -348,10 +347,6 @@ hr {
 	.bg-intro h2 {
 		font-size: 30px;
 		line-height: 32px;
-	}
-	.bg-intro .row {
-		padding-top: 250px;
-		padding-bottom: 300px;
 	}
 }
 
@@ -446,10 +441,6 @@ hr {
 
 }
 
-.bg-bio .fa {
-	color: #1d9d73;
-	margin-left: 40px;
-}
 
 @media (max-width:767px) {
 	.bg-bio {
@@ -542,20 +533,6 @@ hr {
 	transition: all .2s ease-out;
 }
 
-.progress {
-	background-color: #e7e7e7;
-	border-radius: 4px;
-}
-
-.progress-bar {
-	background-color: #1d9d73;
-}
-
-@media (max-width:767px) {
-	.bg-skills p {
-		padding-right: 0px;
-	}
-}
 
 
 /* SERVICES
