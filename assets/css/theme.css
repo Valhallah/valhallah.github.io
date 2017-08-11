@@ -2,6 +2,8 @@
    ================================================== */
 
 body {
+	padding:0!important;
+    margin:0 !important;
 	font-family: 'Coming Soon', cursive;
 	font-family: 'Questrial', sans-serif;
 }
@@ -336,7 +338,6 @@ hr {
 @media (max-width:767px) {
 	.bg-intro {
 		background-position: bottom;
-
 	}
 
 	.bg-intro h1 {
