@@ -349,6 +349,10 @@ hr {
 		font-size: 30px;
 		line-height: 32px;
 	}
+	.bg-intro .row {
+		padding-top: 250px;
+		padding-bottom: 300px;
+	}
 }
 
 
